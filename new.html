@@ -2,25 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/master.css">
     <title>Blog</title>
+
   </head>
   <body>
   <div class="header">
-    <a href="https://vk.com/olegfobos"><img src="image/main-logo.png"  alt="ХХХ News" style="float:right;"></a>
+    <div class="header-wrap">
+        <a href="https://vk.com/olegfobos"><img src="image/main-logo.png"  alt="ХХХ News" style="float:right;"></a>
+    </div>
 <div class="navigation">
-<ul>
-  <li>Статьи</li>
-  <li>Бложек</li>
-  <li>О нас</li>
-</ul>
+<a class="list_top" href="vk.com">Статьи</a>
+<a class="list_top" href="/hyu">Бложек</a>
+<a class="list_top" href="">О Нас</a>
+</div>
 </div>
 
-</div>
 
-</div>
-  </div>
 
+  <script>
+  $('.nav-toggle').on('click', function(){
+  $('#menu').toggleClass('active');
+  });
+  </script>
 <!-- AoA - это area of articles, что в переводе означает - область статей -->
   <div class="d-AoA mar-bor-pad-AoA text-AoA fl-AoA
 <div class="articles">

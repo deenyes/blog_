@@ -1,26 +1,50 @@
+html{
+display: block;
+}
+
+div{
+display: block;
+}
+
 body {
 background-color: #edeef0;
 padding: 0;
 margin: 0;
 display: block;
+box-sizing: border-box;
+
 }
+
 .header{
 background-color: rgb(200,10,50);
-width: 100%;
-display: inline-block;
-
-
+height: 66px;
+display: block;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
+box-sizing: border-box;
+background-size: 100%;
 }
+
 .navigation{
-display: inline-block;
+  display: inline-block;
+  box-sizing: border-box;
 
 }
-li {
-list-style-type: none;
-margin-left: 5px;
-display: inline;
-float: left;
-font-size: 30px;
-padding-left: 350px;
-margin: 15px;
+
+.list_top{
+display: inline-block;
+margin-left: 100px;
+margin-right: 0px;
+margin-top: 20px;
+margin-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+padding-bottom: 0px;
 }
